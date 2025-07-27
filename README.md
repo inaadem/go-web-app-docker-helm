@@ -24,24 +24,43 @@ Managing the project using Agile Scrum methodologies within Jira for efficient d
 # Project Structure:
 .
 ├── .github
+
 │   └── workflows
+
 │       └── ci-cd.yml
+
 ├── go-web-app/
+
 │   ├── main.go
+
 │   └── ...
+
 ├── helm/
+
 │   └── go-web-app/
+
 │       ├── Chart.yaml
+
 │       ├── values.yaml
+
 │       └── templates/
+
 ├── kubernetes/
+
 │   ├── deployment.yaml
+
 │   └── service.yaml
+
 ├── terraform/
+
 │   ├── main.tf
+
 │   ├── variables.tf
+
 │   └── outputs.tf
+
 ├── Dockerfile
+
 └── README.md
 
 # More Detail...
