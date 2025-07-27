@@ -1,5 +1,5 @@
 # Transforming a Go Web Application with DevOps Practices
-# Project Overview:
+## Project Overview:
 
 This project focused on applying advanced DevOps practices to a simple Go web application built with the net/http package. The main objectives were to containerize the application, automate infrastructure provisioning, and establish a robust CI/CD pipeline for streamlined deployment and monitoring.
 
@@ -22,29 +22,33 @@ Integrating Prometheus and Grafana for monitoring and visualization of applicati
 Managing the project using Agile Scrum methodologies within Jira for efficient delivery and iteration.
 
 # Project Structure:
+```
 ├── .github/workflows/
-│   └── ci-cd.yml
-├── charts/
-│   └── go-web-app/        # Helm chart
-├── helm/
-│   └── go-web-app-chart/  # Helm chart template
+│ └── ci-cd.yml
+├── helm/go-web-app-chart/
+│ ├── Chart.yaml
+│ ├── values.yaml
+│ └── templates/
 ├── k8s/
-│   ├── deployment.yaml
-│   ├── service.yaml
-│   └── ingress.yaml
+│ ├── deployment.yaml
+│ ├── service.yaml
+│ └── ingress.yaml
 ├── terraform/
-│   ├── main.tf
-│   ├── variables.tf
-│   └── outputs.tf
+│ ├── main.tf
+│ ├── variables.tf
+│ └── outputs.tf
 ├── Dockerfile
 ├── main.go
 ├── static/
-│   └── index.html
+│ └── index.html
 ├── screenshots/
-│   ├── github-actions.png
-│   ├── eks-cluster.png
-│   └── grafana.png
+│ ├── CI.png
+│ ├── Docker.png
+│ └── Helm Chart Creation.png
 └── README.md
+
+Copy
+Edit
 
 
 # More Detail...
