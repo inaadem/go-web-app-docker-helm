@@ -47,6 +47,5 @@ Managing the project using Agile Scrum methodologies within Jira for efficient d
 # More Detail...
 
 # Containerization with Docker
-![Developed a multi-stage distroless Dockerfile to build the Go web application, ensuring a secure and lightweight container image.](<img width="1366" height="691" alt="docker " src="https://github.com/user-attachments/assets/38e42041-7f84-43b1-a84a-82275ab8a60b" />
-)
+[ArgoCD Dashboard](./screenshots/argocd-dashboard.png)
 
