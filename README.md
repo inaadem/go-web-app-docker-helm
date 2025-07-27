@@ -47,8 +47,7 @@ Managing the project using Agile Scrum methodologies within Jira for efficient d
 │ └── Helm Chart Creation.png
 └── README.md
 
-Copy
-Edit
+
 
 
 # More Detail...
