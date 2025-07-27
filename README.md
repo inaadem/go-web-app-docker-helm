@@ -50,8 +50,5 @@ Managing the project using Agile Scrum methodologies within Jira for efficient d
 
 
 
-# More Detail...
 
-# Containerization with Docker
-![CI Screenshot](screenshots/CI.png)
 
