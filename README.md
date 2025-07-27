@@ -50,5 +50,5 @@ Managing the project using Agile Scrum methodologies within Jira for efficient d
 # More Detail...
 
 # Containerization with Docker
-[ArgoCD Dashboard](./screenshots/Docker)
+![CI Screenshot](screenshots/CI.png)
 
