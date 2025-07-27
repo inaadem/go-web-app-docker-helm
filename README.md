@@ -1,3 +1,5 @@
+# Transforming a Go Web Application with DevOps Practices
+
 This project focused on applying advanced DevOps practices to a simple Go web application built with the net/http package. The main objectives were to containerize the application, automate infrastructure provisioning, and establish a robust CI/CD pipeline for streamlined deployment and monitoring.
 
 Key activities included:
