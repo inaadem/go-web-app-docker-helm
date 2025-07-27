@@ -22,46 +22,30 @@ Integrating Prometheus and Grafana for monitoring and visualization of applicati
 Managing the project using Agile Scrum methodologies within Jira for efficient delivery and iteration.
 
 # Project Structure:
-.
-├── .github
-
-│   └── workflows
-
-│       └── ci-cd.yml
-
-├── go-web-app/
-
-│   ├── main.go
-
-│   └── ...
-
+├── .github/workflows/
+│   └── ci-cd.yml
+├── charts/
+│   └── go-web-app/        # Helm chart
 ├── helm/
-
-│   └── go-web-app/
-
-│       ├── Chart.yaml
-
-│       ├── values.yaml
-
-│       └── templates/
-
-├── kubernetes/
-
+│   └── go-web-app-chart/  # Helm chart template
+├── k8s/
 │   ├── deployment.yaml
-
-│   └── service.yaml
-
+│   ├── service.yaml
+│   └── ingress.yaml
 ├── terraform/
-
 │   ├── main.tf
-
 │   ├── variables.tf
-
 │   └── outputs.tf
-
 ├── Dockerfile
-
+├── main.go
+├── static/
+│   └── index.html
+├── screenshots/
+│   ├── github-actions.png
+│   ├── eks-cluster.png
+│   └── grafana.png
 └── README.md
+
 
 # More Detail...
 
